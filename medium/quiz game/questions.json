@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What is the output of len(set([1, 2, 2, 3, 3]))?",
+        "options": ["3", "5", "4", "2"],
+        "answer": 0,
+        "category": "Python Basics",
+        "difficulty": "Easy",
+        "points": 1,
+        "explanation": "A set stores only unique elements, so the values are 1, 2, and 3."
+    },
+    {
+        "question": "Which data structure follows LIFO order?",
+        "options": ["Queue", "Stack", "Heap", "Graph"],
+        "answer": 1,
+        "category": "DSA",
+        "difficulty": "Easy",
+        "points": 1,
+        "explanation": "A stack follows Last In, First Out."
+    },
+    {
+        "question": "What is the average time complexity of dictionary lookup in Python?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+        "answer": 0,
+        "category": "Python",
+        "difficulty": "Medium",
+        "points": 2,
+        "explanation": "Python dictionaries are hash tables, giving average O(1) lookup time."
+    },
+    {
+        "question": "Which SQL command is used to remove all rows while keeping the table structure?",
+        "options": ["DROP", "DELETE DATABASE", "TRUNCATE", "REMOVE"],
+        "answer": 2,
+        "category": "DBMS",
+        "difficulty": "Medium",
+        "points": 2,
+        "explanation": "TRUNCATE removes all rows while preserving the table definition."
+    },
+    {
+        "question": "Which traversal of a Binary Search Tree produces sorted order?",
+        "options": ["Preorder", "Postorder", "Level order", "Inorder"],
+        "answer": 3,
+        "category": "DSA",
+        "difficulty": "Medium",
+        "points": 2,
+        "explanation": "Inorder traversal of a BST visits keys in ascending order."
+    },
+    {
+        "question": "Which algorithm finds shortest paths from one source when edge weights are non-negative?",
+        "options": ["Dijkstra", "Kruskal", "DFS", "Floyd-Warshall"],
+        "answer": 0,
+        "category": "Algorithms",
+        "difficulty": "Medium",
+        "points": 2,
+        "explanation": "Dijkstra's algorithm solves the single-source shortest-path problem with non-negative edge weights."
+    },
+    {
+        "question": "What is the output of: print([x*x for x in range(3)])?",
+        "options": ["[1, 4, 9]", "[0, 1, 4]", "[0, 1, 2]", "[1, 2, 3]"],
+        "answer": 1,
+        "category": "Python",
+        "difficulty": "Medium",
+        "points": 2,
+        "explanation": "range(3) gives 0, 1, 2 and squaring them gives 0, 1, 4."
+    },
+    {
+        "question": "In machine learning, which metric is commonly used for classification accuracy?",
+        "options": ["R²", "MSE", "Accuracy", "RMSE"],
+        "answer": 2,
+        "category": "Machine Learning",
+        "difficulty": "Easy",
+        "points": 1,
+        "explanation": "Accuracy measures the proportion of correctly classified examples."
+    },
+    {
+        "question": "Which normal form primarily removes partial dependency on a composite key?",
+        "options": ["1NF", "2NF", "3NF", "BCNF"],
+        "answer": 1,
+        "category": "DBMS",
+        "difficulty": "Hard",
+        "points": 3,
+        "explanation": "Second Normal Form removes partial dependencies of non-key attributes on part of a composite candidate key."
+    },
+    {
+        "question": "What is the worst-case time complexity of Quick Sort with consistently poor pivot choices?",
+        "options": ["O(n)", "O(log n)", "O(n log n)", "O(n²)"],
+        "answer": 3,
+        "category": "Algorithms",
+        "difficulty": "Hard",
+        "points": 3,
+        "explanation": "Poor pivot choices can create highly unbalanced partitions, resulting in O(n²) worst-case time."
+    },
+    {
+        "question": "Which Python feature allows a function to remember variables from its enclosing scope?",
+        "options": ["Closure", "Iterator", "Decorator", "Generator"],
+        "answer": 0,
+        "category": "Python",
+        "difficulty": "Hard",
+        "points": 3,
+        "explanation": "A closure retains access to variables from its enclosing lexical scope."
+    },
+    {
+        "question": "Which technique is used to reduce overfitting by adding a penalty to model parameters?",
+        "options": ["Regularization", "Normalization", "Encoding", "Sampling"],
+        "answer": 0,
+        "category": "Machine Learning",
+        "difficulty": "Medium",
+        "points": 2,
+        "explanation": "Regularization adds a penalty term to discourage overly complex model parameters."
+    }
+]
