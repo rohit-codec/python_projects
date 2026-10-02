@@ -166,4 +166,4 @@ If you find this repository useful, consider giving it a ⭐ on GitHub!
 
 ---
 
-### 🐍 Learn → Build → Improve → Repeat.
+### 🐍 Learn → Build → Improve → Repeat
